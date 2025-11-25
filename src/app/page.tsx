@@ -4,8 +4,6 @@ import { useState } from "react";
 
 export default function DesignSystemShowcase() {
   const [inputValue, setInputValue] = useState("");
-  const [inputError, setInputError] = useState(false);
-  const [inputSuccess, setInputSuccess] = useState(false);
 
   return (
     <div className="min-h-screen bg-neutral-100 py-12 px-4 sm:px-6 lg:px-8">
@@ -13,7 +11,7 @@ export default function DesignSystemShowcase() {
         {/* Header */}
         <header className="text-center space-y-4 animate-fade-in-down">
           <h1 className="text-display-2xl gradient-text">
-            Design System Showcase
+            Design System HALL-IA
           </h1>
           <p className="text-body-lg text-neutral-600 max-w-2xl mx-auto">
             Démonstration complète de tous les composants et styles du design
@@ -746,7 +744,7 @@ export default function DesignSystemShowcase() {
           <div>
             <h2 className="text-heading-2 mb-2">Animations</h2>
             <p className="text-body-md text-neutral-600">
-              Animations d&apos;entrée disponibles
+              Animations d&apos;entrée disponibles (CTRL+R pour voir les animations)
             </p>
           </div>
 
@@ -887,7 +885,7 @@ export default function DesignSystemShowcase() {
           </p>
           <p className="text-caption-md text-neutral-500">
             Tous les styles et composants sont basés sur les variables du
-            design system
+            design system de @Samy
           </p>
         </footer>
       </div>
